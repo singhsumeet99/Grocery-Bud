@@ -1,0 +1,96 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body{
+    background: #eee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10rem 1rem;
+}
+
+.container{
+  background-color: #fff;
+  text-align: center;
+  padding: 2rem;
+  margin: auto;
+  max-width: 400px;
+}
+
+/* Typography */
+h1{
+  color: hsl(205, 86%, 17%);
+  font-size: 2rem;
+  letter-spacing: 3px;
+}
+
+/* Input */
+.input{
+  background: hsl(205, 100%, 96%);
+  border-radius:8px ;
+  display: flex;
+}
+
+#input{
+  background: hsl(205, 100%, 96%);
+  border: 0;
+  border-radius:8px ;
+  padding: 0.5rem 1rem;
+  outline: 0;
+  width: 100%;
+}
+
+/* Buttons */
+.btn{
+  border: 0;
+  border-radius: 0 8px 8px 0;
+  background-color: hsl(205, 86%, 81%);
+}
+
+/* Grocery Lists */
+.grocery-list{
+  visibility:hidden;
+}
+
+#clear{
+  visibility:hidden;
+}
+
+.grocery-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list{
+  font-size: 1.5rem;
+  text-align: left;
+  padding: 1rem;
+}
+
+
+/* Alerts */
+
+.alert {
+  margin-bottom: 1rem;
+  height: 2rem;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 0.25rem;
+  text-transform: capitalize;
+}
+.alert-danger {
+  color: #721c24;
+  background: #f8d7da;
+}
+.alert-success {
+  color: #155724;
+  background: #d4edda;
+}
